@@ -15,15 +15,17 @@
 </head>
 
 <body>
-  <h1>E=mc^2計算サイト</h1>
-  <p>このサイトは、万有引力を計算できる現役高校生が作ったサイトです。<br>
-    ぜひ使ってみてください。</p>
-  <form>
-    <label for="name">m(質量)を入力してください。</label>
-    <input type="text" name="a" id="name1" autocomplete="off">kg<br>
-    <input type="button" onclick="op1.value =  Number(a.value) * 90000000000000000;" value="計算する"><br>
-    エネルギーの大きさは約<output name="op1">0</output>です。
-  </form>
+  <div class="content">
+    <h1>E=mc^2計算サイト</h1>
+    <p>このサイトは、万有引力を計算できる現役高校生が作ったサイトです。<br>
+      ぜひ使ってみてください。</p>
+    <form>
+      <label for="name">m(質量)を入力してください。</label>
+      <input type="text" name="a" id="name1" autocomplete="off">kg<br>
+      <input type="button" onclick="op1.value =  Number(a.value) * 90000000000000000;" value="計算する"><br>
+      エネルギーの大きさは約<output name="op1">0</output>です。
+    </form>
+  </div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
